@@ -1,0 +1,135 @@
+
+*,
+*::after,
+*::before {
+  
+  box-sizing: border-box;
+}
+body{
+  
+  margin: 105px 0 0 0
+}
+.main-container{
+    background-color:  #e7e6e4;
+    padding: 5em 0;
+}
+.pad-title{
+    color: #845EC2;
+    font-size: 2rem;
+    
+}
+p{
+    
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+}
+h1{
+    
+    font-weight: 900;
+    
+    margin-left: 0;
+   
+}
+.pad-title{
+    margin:0;
+    padding: 0;
+}
+.div-cont{
+  padding-left: 5em;
+  padding-top: 5em;
+    position: relative;  
+    background-color:  #e7e6e4;
+
+}
+.divider{
+    width: 5rem;
+    border-radius: 4px;
+    height: 8px;
+    background-color: #00C9A7;
+    position: absolute;
+    top:7.5em;
+    left: 10em;
+}
+h2{
+    font-size: 18px;
+ 
+}
+h1, h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+button{
+    font-family: 'Noto Serif', serif;;
+}
+.btn-grp-1{
+  font-size: 
+      12px;
+}
+.btn-grp-2{
+    font-size: 11px;
+    background-color: #b7c3cf;
+    border: 1px solid 	#b7c3cf;
+    border-radius: 2px;
+}
+.btn{ 
+    background-color: #00C9A7;
+    color: #fff;
+    border: 1px solid #00C9A7;
+    border-radius: 2px;
+    padding: .3em .4em;
+ }
+ .btn-2{
+    border: 1px solid #fff;
+ }
+.icon-o{
+    height: .9em;
+}
+.icon-git{
+    height: .9em;
+}
+
+.project-desc{
+  padding:0 2em 0 2em ;
+  border-left-width: .5em;
+  border-left-style: solid;
+  border-left-color:#4E8397 ;
+  
+}
+.project-desc-2, .project-desc-5{
+    border-left-color: #C34A36;
+}
+.title-desc{
+    line-height: 2;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;    
+    background-color: #D5CABD;
+    
+    margin: 0 5em 3em 5em;
+ }
+.project-img img{
+   width: 100%;
+   object-fit: cover;
+    height: 100%;
+}
+.btn-grp{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 3em;
+ padding-bottom: 1em;
+
+}
+@media(max-width:910){
+    .btn-grp{
+        flex-direction: column;
+        justify-content: baseline;
+    }
+}
+.btn-grp-1:hover{
+    border-color: #fff;
+    cursor: pointer;
+    background-color: #fff;
+    color: #845EC2;
+}
